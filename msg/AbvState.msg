@@ -1,2 +1,2 @@
-Pose position
-Twist velocity
+AbvVec3 position
+AbvVec3 velocity

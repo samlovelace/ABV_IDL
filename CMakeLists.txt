@@ -11,11 +11,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 # Specify message files
 set(msg_files
+    "msg/AbvVec3.msg"
     "msg/AbvCommand.msg"
     "msg/AbvResponse.msg"
     "msg/AbvState.msg"
-    "msg/Pose.msg"
-    "msg/Twist.msg"
 )
 
 # Generate the C++ interfaces from the message files
